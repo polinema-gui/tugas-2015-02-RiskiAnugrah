@@ -60,16 +60,6 @@
 
         TextBox1.Text = Nothing
     End Sub
-    'Private Sub tombolSamaDengan_Click(sender As Object, e As EventArgs) Handles tombolSamaDengan.Click
-    '    If Rumus = "+" Then
-
-    '        TextBox1.Text = input_angka + TextBox1.Text
-
-    '    ElseIf Rumus = "-" Then
-
-    '        TextBox1.Text = input_angka - TextBox1.Text
-    '    End If
-    'End Sub
     Private Sub tombolSamaDengan_Click(sender As Object, e As EventArgs) Handles tombolSamaDengan.Click
         Select Case Rumus
             Case "+"
